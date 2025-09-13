@@ -65,7 +65,7 @@ jobs:
           fi
 
       - name: Collect
-        run: python -u subscribe/collect.py --all --overwrite --skip -c --delay 3000
+        run: python -u subscribe/collect.py --all --overwrite --skip -c --delay 2000
 
       - name: Timestamp
         run: date
